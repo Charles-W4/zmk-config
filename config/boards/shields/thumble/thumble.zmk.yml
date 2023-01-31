@@ -1,0 +1,11 @@
+file_format: "1"
+id: thumble
+name: THUMBLE
+type: shield
+url: https://github.com/Charles-W4/thumble
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - thumble_left
+  - thumble_right
