@@ -1,0 +1,11 @@
+file_format: "1"
+id: xandar
+name: XANDAR
+type: shield
+url: https://github.com/Charles-W4/xandar
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - xandar_left
+  - xandar_right
