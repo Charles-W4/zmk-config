@@ -2,7 +2,7 @@ file_format: "1"
 id: xandar
 name: XANDAR
 type: shield
-url: https://github.com/Charles-W4/xandar
+url: https://github.com/Charles-W4/zmk-config
 requires: [seeeduino_xiao_ble]
 features:
   - keys
