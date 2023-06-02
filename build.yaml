@@ -14,10 +14,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: thumble_left
-  - board: seeeduino_xiao_ble
-    shield: thumble_right
-  - board: seeeduino_xiao_ble
     shield: xandar_left
   - board: seeeduino_xiao_ble
     shield: xandar_right
