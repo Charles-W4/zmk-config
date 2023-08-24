@@ -13,7 +13,7 @@
             then-layer = <3>;
         };
     };
-    
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -36,8 +36,8 @@
         nav_layer {
             bindings = <
 &trans  &trans &trans       &trans    &trans        &trans            &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-&trans  &none  &kp LC(LEFT) &kp UP    &kp LC(RIGHT) &kp PG_UP         &none      &kp home     &kp end      &kp F10      &none        &kp bksp
-&trans  &none  &kp LEFT     &kp DOWN  &kp RIGHT     &kp PG_DN         &kp RGUI   &kp RSHIFT   &kp RCTRL    &kp RGUI(L)  &none        &kp del
+&trans  &none  &kp LC(LEFT) &kp UP    &kp LC(RIGHT) &kp PG_UP         &none      &kp HOME     &kp END      &none        &none        &kp BSPC
+&trans  &none  &kp LEFT     &kp DOWN  &kp RIGHT     &kp PG_DN         &kp RGUI   &kp RSHIFT   &kp RCTRL    &kp RGUI(L)  &none        &kp DEL
 &trans  &none  &trans       &trans    &trans        &trans            &none      &none        &none        &kp DOT      &none        &none
                             &trans    &trans        &trans            &trans     &trans       &trans
             >;
